@@ -220,6 +220,18 @@ header {
     margin-bottom: 8px;
 
 }
+
+#education h1 {
+       font-size: 20px;
+       font-weight: bold;
+
+}
+
+#education h3 {
+     font-size: 15px;
+     font-weight: bold;
+
+}
     #education p {
         background: cover;
         font-size: 18px;
