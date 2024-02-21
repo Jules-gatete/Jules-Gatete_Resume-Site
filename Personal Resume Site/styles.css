@@ -1,0 +1,261 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #072b5b; /* Shining black */
+    color: #ffffff; /* Default text color */
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.left-section {
+    width: 33.33%; /* 1/3 of the container */
+    padding: 20px; /* Add some padding for spacing */
+    display: flex; /* Use flexbox for image and social links */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+}
+
+.right-section {
+    width: 66.67%; /* 2/3 of the container */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+/* Social links */
+.social-links {
+    list-style-type: none;
+    text-align: center; /* Center social links */
+    margin-top: 20px; /* Add some space between image and social links */
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links li img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+}
+
+.profile-image {
+    width: 80%; /* Make the image fill its container */
+    height: 50%; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
+    margin-bottom: 20px; /* Add some space between image and social links */
+    object-fit: 50%; /* Cover the area without breaking the aspect ratio */
+    border-radius: 50%; /* Make it round to look like a profile picture */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 50%; /* Scale the image to cover the entire container */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(4, 1, 23, 0.5); /* Semi-transparent black */
+    padding: 20px;
+    position: relative; /* Ensure proper positioning of the navigation */
+}
+
+.home-tab-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.home-tab-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.home-tab-nav ul li {
+    display: inline-block;
+    margin-left: 20px; /* Add some space between links */
+    font-size: 20px;
+    font-weight: bold;
+    position: relative; /* Ensure proper positioning of the navigation */
+
+}
+
+.home-tab-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s; /* Add transition for smooth effect */
+    font-weight: bold;
+}
+
+.home-tab-nav ul li a:hover {
+    color: #080114; /* Change color on hover */
+    font-weight: bold;
+
+}
+
+/* About section styles */
+#about {
+    text-align: center; /* Align text to the right */
+    padding: 20px;
+    font-weight: bold; /* Fix font weight property */
+    font-size: 35px;
+    position: absolute; /* Position the about section absolutely */
+    top: 40%;
+    right: 0;
+    width: 60%;
+    height: 40%;
+    transform: translateY(-50%);
+    margin-right: auto;
+}
+#about h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+    #about p {
+        background: cover;
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+/* experience section styles */
+#experience {
+    text-align: center; /* Align text to the right */
+    padding: 20px;
+    font-weight: bold; /* Fix font weight property */
+    font-size: 35px;
+    position: absolute; /* Position the about section absolutely */
+    top: 40%;
+    right: 0;
+    width: 60%;
+    height: 40%;
+    transform: translateY(-50%);
+    margin-right: auto;
+}
+#experience h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+    #experience p {
+        background: cover;
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+
+    /* projects section styles */
+#projects {
+    text-align: center; /* Align text to the right */
+    padding: 20px;
+    font-weight: bold; /* Fix font weight property */
+    font-size: 35px;
+    position: absolute; /* Position the about section absolutely */
+    top: 40%;
+    right: 0;
+    width: 60%;
+    height: 40%;
+    transform: translateY(-50%);
+    margin-right: auto;
+}
+#projects h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+    #projects p {
+        background: cover;
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+
+/* education section styles */
+#education {
+    text-align: center; /* Align text to the right */
+    padding: 20px;
+    font-weight: bold; /* Fix font weight property */
+    font-size: 35px;
+    position: absolute; /* Position the about section absolutely */
+    top: 40%;
+    right: 0;
+    width: 60%;
+    height: 40%;
+    transform: translateY(-50%);
+    margin-right: auto;
+}
+#education h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+    #education p {
+        background: cover;
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+   /* contact section styles */
+#contact {
+    text-align: center; /* Align text to the right */
+    padding: 20px;
+    font-weight: bold; /* Fix font weight property */
+    font-size: 35px;
+    position: absolute; /* Position the about section absolutely */
+    top: 40%;
+    right: 0;
+    width: 60%;
+    height: 40%;
+    transform: translateY(-50%);
+    margin-right: auto;
+}
+#contact h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+    #contact p {
+        background: cover;
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        font-weight: bold;
+    }
