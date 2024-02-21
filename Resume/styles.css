@@ -217,29 +217,33 @@ header {
 #education h2 {
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin: 20px ;
 
 }
 
 #education h1 {
-       font-size: 35px;
+       font-size: 38px;
        font-weight: bold;
+       margin: 25px;
 
 }
 
 #education h3 {
      font-size: 22px;
      font-weight: bold;
+         margin: 18;
 
 }
     #education p {
         background: cover;
         font-size: 18px;
         line-height: 1;
-        margin-bottom: 12px;
+        margin-bottom: 10px;
         padding: 0;
         color: #ffffff;
         font-weight: bold;
+        
+
     }
 
    /* contact section styles */
