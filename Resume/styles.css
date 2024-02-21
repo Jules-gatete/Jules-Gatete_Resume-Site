@@ -222,13 +222,13 @@ header {
 }
 
 #education h1 {
-       font-size: 30px;
+       font-size: 35px;
        font-weight: bold;
 
 }
 
 #education h3 {
-     font-size: 15px;
+     font-size: 22px;
      font-weight: bold;
 
 }
@@ -236,7 +236,7 @@ header {
         background: cover;
         font-size: 18px;
         line-height: 1;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
         padding: 0;
         color: #ffffff;
         font-weight: bold;
